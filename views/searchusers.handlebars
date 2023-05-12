@@ -1,0 +1,7 @@
+<h3>Search Users</h3>
+{{#if error}} <span>{{error}}</span>{{/if}}
+
+<form action="/user/search" method="post" class="form-inline d-flex">
+    <input class="form-control me-2" type="search" name="id" placeholder="Search By Id" aria-label="Search">
+    <button class="btn btn-outline-success" type="submit">Search</button>
+</form>
